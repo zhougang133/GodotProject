@@ -1,8 +1,28 @@
+# ======================
+# Godot 4.x
+# ======================
+
+# Editor & cache
+.godot/
 .import/
 .export/
 .cache/
 .editor/
-.godot/
+
+# Import generated files
+*.import
 *.log
+
+# Mono / C#
+.mono/
+*.dll
+*.pdb
+
+# Android export
+/android/
+
+# OS / Editor
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
