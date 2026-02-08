@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://b2wdd0jpscgfs"]
+
+[ext_resource type="Script" uid="uid://bk3ogxh8e8end" path="res://网格放置/grid_cell.gd" id="1_7mx8i"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iv3kn"]
+bg_color = Color(0.735357, 0.735357, 0.735357, 0.5)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+
+[node name="PanelContainer" type="PanelContainer" unique_id=955579399]
+custom_minimum_size = Vector2(32, 32)
+theme_override_styles/panel = SubResource("StyleBoxFlat_iv3kn")
+script = ExtResource("1_7mx8i")
